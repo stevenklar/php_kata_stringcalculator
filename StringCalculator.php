@@ -90,7 +90,7 @@ class StringCalculator
     /**
      * @param $number
      *
-     * @return boo
+     * @return bool
      */
     private function isValidNumber($number)
     {
