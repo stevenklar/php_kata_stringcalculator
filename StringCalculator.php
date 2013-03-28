@@ -46,7 +46,6 @@ class StringCalculator
 
             $numbers = $this->filterNumbers($delimitedStringNumbers, $this->delimiter);
         } else {
-            // has no custom delimiter
             $numbers = $this->filterNumbers($stringNumbers);
         }
         $result = $this->calculateNumbers($numbers);
