@@ -55,6 +55,11 @@ class StringCalculatorTest extends PHPUnit_Framework_TestCase
         $this->expectAddResult("1", 1);
     }
 
+    public function test_add_justRealNumber_returnsThatNumber()
+    {
+        $this->expectAddResult(5, 5);
+    }
+
     public function test_add_twoNumbersInString_sumNumbersAndReturnResult()
     {
         $this->expectAddResult("1,2", 3);

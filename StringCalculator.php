@@ -124,8 +124,6 @@ class StringCalculator
                 foreach ($explodedNumberWithNewline as $newlineNumber) {
                     array_push($numbers, $newlineNumber);
                 }
-            } else {
-                array_push($numbers, $number);
             }
         }
 
